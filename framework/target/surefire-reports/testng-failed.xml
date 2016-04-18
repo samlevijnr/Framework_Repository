@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.wordpress.tests.WordPressLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testWithInvalidCharacters"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.wordpress.tests.WordPressLoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
